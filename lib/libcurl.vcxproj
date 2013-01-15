@@ -80,6 +80,8 @@
     <ClCompile Include="asyn-thread.c" />
     <ClCompile Include="axtls.c" />
     <ClCompile Include="base64.c" />
+    <ClCompile Include="bundles.c" />
+    <ClCompile Include="conncache.c" />
     <ClCompile Include="connect.c" />
     <ClCompile Include="content_encoding.c" />
     <ClCompile Include="cookie.c" />
@@ -189,6 +191,7 @@
     <ClInclude Include="arpa_telnet.h" />
     <ClInclude Include="asyn.h" />
     <ClInclude Include="axtls.h" />
+    <ClInclude Include="bundles.h" />
     <ClInclude Include="config-amigaos.h" />
     <ClInclude Include="config-dos.h" />
     <ClInclude Include="config-mac.h" />
@@ -200,6 +203,7 @@
     <ClInclude Include="config-vxworks.h" />
     <ClInclude Include="config-win32.h" />
     <ClInclude Include="config-win32ce.h" />
+    <ClInclude Include="conncache.h" />
     <ClInclude Include="connect.h" />
     <ClInclude Include="content_encoding.h" />
     <ClInclude Include="cookie.h" />
